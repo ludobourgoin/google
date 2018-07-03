@@ -80,14 +80,14 @@ a:hover {
 }
 */
 
-.search-bar form {
+#search-bar form {
     position: relative;
   }
 
 .microphone {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 9px;
+    right: 14px;
     width: 16px;
     height: 23px;
   }
@@ -164,4 +164,5 @@ footer ul li {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
+  padding-right: 30px;
 }
