@@ -1,19 +1,50 @@
+* {
+  font-family: arial, sans-serif;
+  color: #222;
+  font-size: 13px;
+}
+
 #header {
+  margin-top: 15px;
+  margin-right: 20px;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
+  align-items: center;
+}
+
+.apps-icon {
+  max-width: 45%;
+  display: block;
+  margin-left: 4px;
+}
+
+.connection-button {
+  background-color: #488AF7;
+  border-radius: 2px;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  padding: 7px 9px;
+  text-align: center;
 }
 
 #header li {
-  padding-left: 10px;
+  padding-left: 14px;
 }
 
 #logo {
   margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #logo img {
   width: 270px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
