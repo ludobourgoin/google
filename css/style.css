@@ -34,10 +34,13 @@
 }
 
 #logo {
-  margin-top: 180px;
-  display: flex;
-  justify-content: center;
+  margin-top: 160px;
+  margin-bottom: 25px;
+}
 
+#logo img {
+  width: 30%;
+  height: 30%;
 }
 
 a {
@@ -46,4 +49,43 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.frog {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#search-bar form input {
+  height: 39px;
+  width: 480px;
+  border: 1px solid #D2D2D2;
+  border-width: thin;
+  border-radius: 2px;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+#search-bar form input:hover {
+  box-shadow: 1px 1px #D2D2D2;
+}
+
+.microphone {
+  width: 16px;
+  height: 23px;
+}
+
+.cta-button {
+  margin: 3px;
+  border-radius: 2px;
+  background-color: #F4F4F4;
+  color: #757575;
+  border-style: none;
+  font-weight: bold;
+  padding: 13px;
+}
+
+input:focus {
+  outline: none;
 }
