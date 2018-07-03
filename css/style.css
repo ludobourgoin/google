@@ -34,11 +34,10 @@
 }
 
 #logo {
-  margin-top: 80px;
-}
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
 
-#logo img {
-  width: 270px;
 }
 
 a {
