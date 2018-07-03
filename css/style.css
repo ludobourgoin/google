@@ -1,0 +1,19 @@
+#header {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+#header li {
+  padding-left: 10px;
+}
+
+#logo {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo img {
+  width: 270px;
+}
