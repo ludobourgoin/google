@@ -39,8 +39,8 @@
 }
 
 #logo img {
-  width: 30%;
-  height: 30%;
+  width: 272px;
+  height: 92px;
 }
 
 a {
@@ -72,8 +72,11 @@ a:hover {
 }
 
 .microphone {
-  width: 16px;
-  height: 23px;
+  position:absolute;
+  top:331px;
+  left:690px;
+  width:16px;
+  height:23px;
 }
 
 .cta-button {
@@ -88,4 +91,13 @@ a:hover {
 
 input:focus {
   outline: none;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  color: white;
+  text-align: center;
 }
